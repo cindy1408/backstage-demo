@@ -3,6 +3,8 @@ kind: API
 metadata:
   name: joels-world
   description: Joels World example for gRPC
+  tags:
+    - joel
 spec:
   type: grpc
   lifecycle: deprecated

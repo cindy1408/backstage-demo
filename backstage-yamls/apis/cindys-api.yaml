@@ -3,6 +3,8 @@ kind: API
 metadata:
   name: cindy-world
   description: Cindy World example for gRPC
+  tags:
+    - cindy
 spec:
   type: grpc
   lifecycle: deprecated
