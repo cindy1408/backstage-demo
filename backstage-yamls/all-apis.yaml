@@ -5,3 +5,5 @@ metadata:
   description: A collection of all Backstage example APIs
 spec:
   targets:
+    - ./apis/cindys-api.yaml
+    - ./apis/hello-world-api-new.yaml

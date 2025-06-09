@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: cindy cindy world
-  description: cindy cindy World example for gRPC
+  name: cindy-world
+  description: Cindy World example for gRPC
 spec:
   type: grpc
   lifecycle: deprecated
-  owner: team-c
+  owner: cindy
   definition: |
     // Copyright 2015 gRPC authors.
     //
