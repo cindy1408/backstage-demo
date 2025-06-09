@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: cindys-pet-store-api
+  description: Cindy has her own API it's average at best
+  tags:
+    - cindy
+    - hashTagBossBitch
+    - pets
+  links:
+    - url: https://github.com/swagger-api/cindys-api
+      title: GitHub Repo
+      icon: github
+    - url: https://github.com/swagger-api/swagger-petstore/blob/master/src/main/resources/openapi.yaml
+      title: API Spec
+      icon: code
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: team-c
+  definition:
+    $text: ./petstore.oas.yaml
