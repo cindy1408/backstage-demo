@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: team-a
+  name: team
   description: Team A responsible for gRPC APIs
 spec:
   type: team
   profile:
     displayName: Team A
-    email: team-a@example.com
+    email: team@example.com
   children: [cindy, joel]
 ---
 
@@ -15,13 +15,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: cindy
-  description: Personal developer group for Cindy
 spec:
-  type: group
-  profile:
-    displayName: Cindy
-    email: cindy@example.com
-  parent: team-a
+  type: team
+  children: []
 
 ---
 
@@ -30,7 +26,5 @@ kind: Group
 metadata:
   name: joel
 spec:
-  profile:
-    displayName: Joel
-    email: joel@example.com
-  memberOf: [team-a]
+  type: team
+  children: []
