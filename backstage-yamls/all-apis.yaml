@@ -7,3 +7,4 @@ spec:
   targets:
     - ./apis/cindys-api.yaml
     - ./apis/hello-world-api-new.yaml
+    - ./apis/joels-api.yaml
