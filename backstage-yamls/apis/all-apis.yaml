@@ -5,8 +5,8 @@ metadata:
   description: A collection of all Backstage example APIs
 spec:
   targets:
-    - ./apis/cindys-api.yaml
-    - ./apis/hello-world-api-new.yaml
-    - ./apis/joels-api.yaml
-    - ./apis/petstore-api.yaml
+    - ./cindys-api.yaml
+    - ./hello-world-api-new.yaml
+    - ./joels-api.yaml
+    - ./petstore-api.yaml
     - https://github.com/JoelAOgden/backstage-repo-test/blob/master/joels-repo.yaml
