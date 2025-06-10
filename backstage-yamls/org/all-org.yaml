@@ -16,5 +16,5 @@ metadata:
   description: A collection of all Backstage example Groups
 spec:
   targets:
-    - ./org/joels-group.yaml
-    - ./org/cindys-group.yaml
+    - ./joels-group.yaml
+    - ./cindys-group.yaml
