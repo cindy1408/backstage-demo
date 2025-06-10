@@ -14,4 +14,4 @@ metadata:
   description: A collection of all Backstage example Groups
 spec:
   targets:
-    - ./org.yaml
+    - ./org/all-org.yaml
