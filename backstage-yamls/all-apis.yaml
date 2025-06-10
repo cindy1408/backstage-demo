@@ -9,3 +9,4 @@ spec:
     - ./apis/hello-world-api-new.yaml
     - ./apis/joels-api.yaml
     - ./apis/petstore-api.yaml
+    - https://github.com/JoelAOgden/backstage-repo-test/blob/master/joels-repo.yaml
