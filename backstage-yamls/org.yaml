@@ -1,35 +1,20 @@
----
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: cindy
-spec:
-  memberOf: [guests, cindys]
----
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: cindys
+  name: backstage-demo
+  description: demo-organisation
 spec:
-  type: team
-  children: []
+  type: organization
+  profile:
+    displayName: backstage-demo
+    email: info@example.com
 ---
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
 apiVersion: backstage.io/v1alpha1
-kind: User
+kind: Location
 metadata:
-  name: joel
+  name: example-groups
+  description: A collection of all Backstage example Groups
 spec:
-  memberOf: [guests, joels]
----
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: joels
-spec:
-  type: team
-  children: []
----
+  targets:
+    - ./joels-group.yaml
+    - ./cindys-group.yaml
