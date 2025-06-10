@@ -8,7 +8,7 @@ metadata:
 spec:
   type: grpc
   lifecycle: deprecated
-  owner: cindy
+  owner: cindys
   definition: |
     // Copyright 2015 gRPC authors.
     //
