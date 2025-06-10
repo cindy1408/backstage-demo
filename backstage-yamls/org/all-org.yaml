@@ -17,3 +17,4 @@ metadata:
 spec:
   targets:
     - ./joels-group.yaml
+    - ./cindys-group.yaml
