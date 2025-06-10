@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all-entities
+  description: A collection of all Backstage example entities, INCLUDING users, groups, and templates
+spec:
+  targets:
+    - ./apis/all-apis.yaml
+    - ./org/all-org.yaml

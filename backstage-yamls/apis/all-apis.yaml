@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: api-collection
+  description: A collection of all Backstage example APIs
+spec:
+  targets:
+    - ./cindys-api.yaml
+    - ./hello-world-api-new.yaml
+    - ./joels-api.yaml
+    - ./petstore-api.yaml
