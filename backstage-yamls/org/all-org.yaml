@@ -5,6 +5,7 @@ metadata:
   description: demo-organisation
 spec:
   type: organization
+  children: []
   profile:
     displayName: backstage-demo
     email: info@example.com
@@ -18,3 +19,4 @@ spec:
   targets:
     - ./joels-group.yaml
     - ./cindys-group.yaml
+  children: []
