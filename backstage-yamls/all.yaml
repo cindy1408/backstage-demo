@@ -6,4 +6,4 @@ metadata:
 spec:
   targets:
     - ./all-apis.yaml
-    - ./org.yaml
+    - ./backstage-demo-corp.yaml
